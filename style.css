@@ -677,25 +677,7 @@ a:hover {
     to { transform: rotate(360deg); }
 }
 
-/* Scroll Reveal Animations */
-.reveal {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s ease;
-}
 
-.reveal.left {
-    transform: translateX(-50px);
-}
-
-.reveal.right {
-    transform: translateX(50px);
-}
-
-.reveal.active {
-    opacity: 1;
-    transform: translate(0, 0);
-}
 
 /* Responsive Design */
 @media (max-width: 991px) {
@@ -742,24 +724,9 @@ a:hover {
         margin: 0 !important;
     }
 }
-.hero-desc,
-.sub-title,
-.section-title,
-.text-muted-light {
-    animation: fadeUp 1s ease;
-}
 
-@keyframes fadeUp {
-    from {
-        opacity: 0;
-        transform: translateY(15px);
-    }
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+
 .text-muted-light {
     color: #b8c4d9 !important;
     line-height: 1.9;
